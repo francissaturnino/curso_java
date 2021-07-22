@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		// Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		int divisor;
+
+		for (int i = n; i <= n; i--) {
+			divisor = n / i;
+			while (n % i == 0 && i > 0) {
+				System.out.println(divisor);
+			}
+		}
+
+		sc.close();
+	}
+
+}

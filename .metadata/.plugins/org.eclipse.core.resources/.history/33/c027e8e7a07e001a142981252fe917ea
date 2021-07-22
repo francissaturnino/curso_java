@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		// Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		int linha = sc.nextInt();
+		int quadrado;
+		int cubo;
+
+		for (int i= linha; i < linha; i++) {
+			 linha = linha / linha;
+			 
+			 quadrado = linha * linha;
+			 cubo = linha * linha * linha;
+			 
+				System.out.println(linha + " " + quadrado + " " + cubo);
+			}
+		sc.close();
+		}
+
+		
+	}

@@ -1,0 +1,28 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioCalculadora {
+	public static void main(String[] args) {
+		// num1
+		// num2
+		// + - * / %
+
+		System.out.println("Digite primeiro número: ");
+		Scanner entrada = new Scanner(System.in);
+		var num1 = entrada.nextDouble();
+
+		System.out.println("Digite segundo número: ");
+		var num2 = entrada.nextDouble();
+
+		System.out.println("Escolha a operação desejada: + , - , * , / , % ");
+		var operador = entrada.next();
+		
+		Double resultado = (num1 + "operacao" + num2);
+		System.out.println("O resultado da operação é: " + resultado);
+		entrada.close();
+	}
+
+	}
+
+}

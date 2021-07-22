@@ -1,0 +1,8 @@
+package oo.composicao.desafio;
+
+import java.util.ArrayList;
+
+public class Compra {
+
+	ArrayListist<Compra> compra = new ArrayList<>();
+}

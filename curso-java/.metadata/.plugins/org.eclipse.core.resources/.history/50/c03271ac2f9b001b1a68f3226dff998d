@@ -1,0 +1,31 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioCalculadora {
+	public static void main(String[] args) {
+		//num1
+		//num2
+		//+ - * / %
+		
+		System.out.println("Digite primeiro número: ");
+		Scanner entrada1 = new Scanner(System.in);
+		String num1 = entrada1.nextLine();
+		
+		System.out.println("Digite segundo número: ");
+		Scanner entrada2 = new Scanner(System.in);
+		String num2 = entrada2.nextLine();
+		
+		System.out.println("Escolha a operação desejada: + , - , * , / , % ");
+		Scanner entrada = new Scanner(System.in);
+		String operacao = entrada.nextLine();
+			
+		Double resultado = parseDouble(num1 + operacao + num2);
+		System.out.println("O resultado da operação é: " + resultado );
+		
+	    close();
+	}
+
+
+	}
+}

@@ -1,0 +1,25 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		int x = 4;
+		int y = 0;
+		int i = 0;
+
+		while (i < x) {
+			i = i + 1;
+			y = y + 1;
+			System.out.print(i);
+			System.out.println(y);
+			
+		}
+
+		sc.close();
+	}
+}

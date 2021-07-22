@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main{
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+			
+		int horaInicial = sc.nextInt();
+		int horaFinal = sc.nextInt();
+		int tempoDeJogo = horaFinal - horaInicial;
+		
+		if(tempoDeJogo) {
+			System.out.println(tempoDeJogo);
+		//}
+		//else {
+		//	System.out.println("Nao soa Multiplos");
+	
+		
+		sc.close();
+	    }
+	}
+}

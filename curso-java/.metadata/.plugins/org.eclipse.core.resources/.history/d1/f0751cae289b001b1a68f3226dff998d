@@ -1,0 +1,15 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioCalculadora {
+	public static void main(String[] args) {
+		//num1
+		//num2
+		//+ - * / %
+		
+		System.out.println("Digite primeiro número: ");
+		Scanner valor1 = new Scanner(System.in);
+		valor1.close();
+	}
+}

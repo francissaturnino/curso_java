@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		// Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		int linha = sc.nextInt();
+		double quadrado;
+		double cubo;
+
+		for (int i=1; i < linha; i++) {
+			 //linha = linha + 1;
+			 quadrado = Math.pow(linha, 2);
+			 cubo = Math.pow(linha, 3);
+			 
+				System.out.println(linha + " " + quadrado + " " + cubo);
+			}
+		sc.close();
+		}
+
+		
+	}
